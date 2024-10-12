@@ -23,8 +23,8 @@ module.exports = {
       name: '@electron-forge/publisher-github',
       config: {
         repository: {
-          owner: 'joembarron',
-          name: 'github_actions_test'
+          owner: 'jmbarron1',
+          name: 'github_actions_gap_app'
         },
         force: true,
         prerelease: true,
