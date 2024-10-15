@@ -8,7 +8,7 @@ module.exports = {
   rebuildConfig: {},
   makers: [
     {
-      platforms: ['darwin'],
+      platforms: ['darwin', 'windows'],
       name: '@electron-forge/maker-zip'
     },
     {
