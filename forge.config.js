@@ -17,6 +17,10 @@ module.exports = {
       config: {
         options: {}
       }
+    },
+    {
+      name: '@electron-forge/maker-squirrel',
+      config: {}
     }
   ],
   publishers: [

@@ -1,4 +1,7 @@
 const { app, BrowserWindow, ipcMain, dialog } = require("electron");
+
+if (require('electron-squirrel-startup')) app.exit();
+
 const path = require("node:path");
 const { unlink } = require("node:fs");
 const util = require("node:util");
